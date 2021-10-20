@@ -1,0 +1,7 @@
+TODO
+__pycache__
+notebooks
+research
+.mypy_cache
+dev
+.env

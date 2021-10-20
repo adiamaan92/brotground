@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "brotground"
+version = "0.1.0"
+description = ""
+authors = ["Adiamaan Keerthi Matheswaran <mak.adi55@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+numba = "^0.54.0"
+scipy = "^1.7.1"
+tqdm = "^4.62.3"
+matplotlib = "^3.4.3"
+ipykernel = "^6.4.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
