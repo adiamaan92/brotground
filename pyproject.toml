@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "brotground"
-version = "0.1.0"
+version = "0.1.1"
 description = "A playground for experimenting and getting mesmerized by the wonderful world of brots!"
 authors = ["Adiamaan Keerthi Matheswaran <mak.adi55@gmail.com>"]
 license = "MIT"

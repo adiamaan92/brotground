@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./assets/logo.png" alt="brotground logo"/>
+<img src="https://i.ibb.co/L8pHqrv/logo.png" alt="logo" border="0">
 </p>
 
 # Brotground
