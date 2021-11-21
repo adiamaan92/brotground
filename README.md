@@ -36,7 +36,7 @@ mandel.iterate_diverge(max_iterations=25) # Run the iterate diverge loop
 matplot_renderer.plot(mandel, cmap="RdGy") # Plot the results
 ```
 <p align="center">
-<img src="./assets/mandelbrot_simple.png">
+<img src="https://i.ibb.co/17H8MZV/mandelbrot-simple.png" alt="mandelbrot-simple" border="0" />
 </p>
 
 We can further zoom in on the coordinates and iterate-diverge on those coordinates,
@@ -49,7 +49,7 @@ matplot_renderer.plot(mandel, cmap="plasma")
 
 will render like below,
 <p align="center">
-<img src="./assets/mandelbrot_zoomed.png">
+<img src="https://i.ibb.co/kDsRb81/mandelbrot-zoomed.png" alt="mandelbrot-zoomed" border="0">
 </p>
 
 
@@ -70,7 +70,7 @@ matplot_renderer.plot(multi, cmap="binary")
 ```
 
 <p align="center">
-<img src="./assets/multibrot.png">
+<img src="https://i.ibb.co/w6PtBGY/multibrot.png" alt="multibrot" border="0">
 </p>
 
 A **Tricorn** brot is expressed as,  
@@ -87,7 +87,7 @@ matplot_renderer.plot(tricorn, cmap="RdYlBu")
 ```
 
 <p align="center">
-<img src="./assets/tricorn.png">
+<img src="https://i.ibb.co/F03qv0H/tricorn.png" alt="tricorn" border="0">
 </p>
 
 
@@ -104,7 +104,7 @@ matplot_renderer.plot(burning_ship, cmap="copper")
 ```
 
 <p align="center">
-<img src="./assets/burning_ship.png">
+<img src="https://i.ibb.co/1sWn7yr/burning-ship.png" alt="burning-ship" border="0">
 </p>
 
 **JuliaBrot** is an extension to Mandelbrot, in which instead of initializing Z and C as 0 and `complex(i, j)` respectively we initialize Z as `complex(i, j)` and C as a function `f(i, j)` based on the julia set that we want to generate.
@@ -119,7 +119,7 @@ matplot_renderer.plot(julia, cmap="inferno")
 ```
 
 <p align="center">
-<img src="./assets/frost_fractal.png">
+<img src="https://i.ibb.co/yk1b12z/frost-fractal.png" alt="frost-fractal" border="0">
 </p>
 
 ```python
@@ -130,7 +130,7 @@ matplot_renderer.plot(julia, cmap="inferno")
 ```
 
 <p align="center">
-<img src="./assets/galaxiex_fractal.png">
+<img src="https://i.ibb.co/nzhy6CN/galaxiex-fractal.png" alt="galaxiex-fractal" border="0">
 </p>
 
 

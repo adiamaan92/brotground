@@ -10,7 +10,6 @@ repository = "https://github.com/adiamaan92/brotground"
 keywords = ["mandelbrot", "julia set", "brot"]
 include = ["LICENSE"]
 classifiers = [
-	"Environment :: Jupyter Notebooks",
 	"Operating System :: OS Independent",
 ]
 

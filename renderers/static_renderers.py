@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-from brots import BrotBase
+from brotground import BrotBase
 
 
 class MatplotJupyterRenderer:

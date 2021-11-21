@@ -27,7 +27,7 @@ from abc import abstractmethod
 
 import numpy as np
 
-from brots.project_types import RangeType
+from brotground.project_types import RangeType
 
 
 class BrotBase:

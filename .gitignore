@@ -6,3 +6,5 @@ research
 dev
 .env
 out
+NOTES_DEV
+dist

@@ -23,10 +23,10 @@ from typing import Callable
 import numba as nb
 import numpy as np
 
-from brots.BrotBase import BrotBase
-from brots.core import nb_iterate_diverge
-from brots.project_types import RangeType
-from brots.resources import quadratic_julia_set
+from brotground.BrotBase import BrotBase
+from brotground.core import nb_iterate_diverge
+from brotground.project_types import RangeType
+from brotground.resources import quadratic_julia_set
 
 
 class UserBrot(BrotBase):
