@@ -5,3 +5,4 @@ research
 .mypy_cache
 dev
 .env
+out
