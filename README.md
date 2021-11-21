@@ -28,7 +28,7 @@ A Standard **Mandelbrot** equation,
 </p>
 when implemented and rendered will look like this,
 
-```{python}
+```python
 mandel = MandelBrot() # Initialize Mandelbrot
 matplot_renderer = MatplotJupyterRenderer() # Initialize the renderer
 
@@ -41,7 +41,7 @@ matplot_renderer.plot(mandel, cmap="RdGy") # Plot the results
 
 We can further zoom in on the coordinates and iterate-diverge on those coordinates,
 
-```{python}
+```python
 mandel.set_boundaries((-0.02, 0.02), (0.780, 0.820)) # Zoom in on the coordinates
 mandel.iterate_diverge(max_iterations=100)
 matplot_renderer.plot(mandel, cmap="plasma")
@@ -62,7 +62,7 @@ Generalizing the above Mandelbrot equation to k, we get **Multibrot** where,
 
 For a K value of 3 we get a Multibrot rendered like this, 
 
-```{python}
+```python
 multi = MultiBrot()
 
 multi.iterate_diverge(max_iterations=15)
@@ -79,7 +79,7 @@ A **Tricorn** brot is expressed as,
 <img src="https://render.githubusercontent.com/render/math?math=Z_{n %2B 1} = \overline{Z_n^2} %2B \mathbb{C}" width=200 height=100>
 </p>
 
-```{python}
+```python
 tricorn = UserBrot(brot_equation=tricorn_brot_equation)
 
 tricorn.iterate_diverge(max_iterations=15)
@@ -96,7 +96,7 @@ A **Burning ship** brot is expressed as,
 <img src="https://render.githubusercontent.com/render/math?math=Z_{n %2B 1} = {|\Re(Z)| %2B 1j %2B |\Im(Z)|}^2 %2B \mathbb{C}" width=500 height=200>
 </p>
 
-```{python}
+```python
 burning_ship = UserBrot(brot_equation=burning_ship_brot_equation)
 
 burning_ship.iterate_diverge(max_iterations=15)
@@ -111,7 +111,7 @@ matplot_renderer.plot(burning_ship, cmap="copper")
 
 For example, to generate a `` julia set we initialize C as `complex(-0.7, 0.35)` and this generates the following,
 
-```
+```python
 julia = JuliaBrot(julia_name="frost_fractal")
 julia.iterate_diverge(max_iterations=100)
 
@@ -122,7 +122,7 @@ matplot_renderer.plot(julia, cmap="inferno")
 <img src="./assets/frost_fractal.png">
 </p>
 
-```
+```python
 julia = JuliaBrot(julia_name="galaxiex_fractal")
 julia.iterate_diverge(max_iterations=100)
 
