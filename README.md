@@ -27,8 +27,8 @@ pip install brotground
 1. Getting started with Mandelbrot:  
 	Goes over the basics of the library and how to use it to generate different brots.  
 	Click the launch binder and navigate to nbs/all_brots.ipynb  
-	[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/adiamaan92/brotground/HEAD)
 
+	[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/adiamaan92/brotground/HEAD)
 
 
 	
