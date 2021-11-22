@@ -25,15 +25,18 @@ pip install brotground
 
 ## Try it out!
 1. Getting started with Mandelbrot:  
-	Goes over the basics of the library and how to use it to generate different brots.
+	Goes over the basics of the library and how to use it to generate different brots.  
+	Click the launch binder and navigate to nbs/all_brots.ipynb  
+	[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/adiamaan92/brotground/HEAD)
 
-	[![Binder](https://binder.pangeo.io/badge_logo.svg)]((https://mybinder.org/v2/gh/adiamaan92/brotground/313223a24532f8af192df8cb16e5643f72fa62ba?urlpath=lab%2Ftree%2Fnbs%2Fall_brots.ipynb))
+
 
 	
-2. Juliaset
-	Goes over different Juliasets and how to generate them.
+2. Juliaset:  
+	Goes over different Juliasets and how to generate them.  
+	Click the launch binder and navigate to nbs/julia_sets.ipynb  
 
-	[![Binder](https://binder.pangeo.io/badge_logo.svg)]((https://mybinder.org/v2/gh/adiamaan92/brotground/313223a24532f8af192df8cb16e5643f72fa62ba?urlpath=lab%2Ftree%2Fnbs%2Fjulia_sets.ipynb))
+	[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/adiamaan92/brotground/HEAD)
 ##  Overview
 Brots are generalization of Mandelbrot that takes a generic Mandelbrot equation. This library makes every part of the Mandelbrot equation as a parameter offering extreme flexibility to override or use the default implementation.
 
