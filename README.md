@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/Naereen/badges/master)
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://mybinder.org/v2/gh/adiamaan92/brotground/HEAD)
 
 
 
@@ -20,9 +20,20 @@ pip install brotground
 1. _Light weight_, well documented, easy to understand code base
 2. _Extremely modular_, Replace any module with your own definition
 3. _Flexible_, Comes with good defaults but can be overridden
-4. _Zero Effort Setup_, Includes google colab notebooks to start experimenting without any setup
+4. _Zero Effort Setup_, Includes binder environment to start experimenting without any setup
 5. _Minimal Dependency_, Numba for iteration and Matplotlib for rendering
 
+## Try it out!
+1. Getting started with Mandelbrot:  
+	Goes over the basics of the library and how to use it to generate different brots.
+
+	[![Binder](https://binder.pangeo.io/badge_logo.svg)]((https://mybinder.org/v2/gh/adiamaan92/brotground/313223a24532f8af192df8cb16e5643f72fa62ba?urlpath=lab%2Ftree%2Fnbs%2Fall_brots.ipynb))
+
+	
+2. Juliaset
+	Goes over different Juliasets and how to generate them.
+
+	[![Binder](https://binder.pangeo.io/badge_logo.svg)]((https://mybinder.org/v2/gh/adiamaan92/brotground/313223a24532f8af192df8cb16e5643f72fa62ba?urlpath=lab%2Ftree%2Fnbs%2Fjulia_sets.ipynb))
 ##  Overview
 Brots are generalization of Mandelbrot that takes a generic Mandelbrot equation. This library makes every part of the Mandelbrot equation as a parameter offering extreme flexibility to override or use the default implementation.
 
@@ -35,8 +46,12 @@ A Standard **Mandelbrot** equation,
 when implemented and rendered will look like this,
 
 ```python
+from brotground import MandelBrot, MultiBrot, UserBrot, JuliaBrot
+from brotground.resources import tricorn_brot_equation, burning_ship_brot_equation
+from brotground.renderer import StaticRenderer
+
+matplot_renderer = StaticRenderer() # Initialize the renderer
 mandel = MandelBrot() # Initialize Mandelbrot
-matplot_renderer = MatplotJupyterRenderer() # Initialize the renderer
 
 mandel.iterate_diverge(max_iterations=25) # Run the iterate diverge loop
 matplot_renderer.plot(mandel, cmap="RdGy") # Plot the results
