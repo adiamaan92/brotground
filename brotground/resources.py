@@ -41,8 +41,8 @@ quadratic_julia_set = dict(
 
 
 class MatplotJupyterRenderer:
-    def __init__(self):
-        pass
+    def __init__(self, figsize=(10, 10)):
+        self.figsize = figsize
 
     def plot(self, brot, figsize=(10, 10), cmap="plasma"):
         plt.figure(figsize=(figsize))
