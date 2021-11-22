@@ -40,7 +40,7 @@ quadratic_julia_set = dict(
 )
 
 
-class MatplotJupyterRenderer:
+class StaticRenderer:
     def __init__(self, figsize=(10, 10)):
         self.figsize = figsize
 
