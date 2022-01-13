@@ -133,7 +133,7 @@ matplot_renderer.plot(burning_ship, cmap="copper")
 
 **JuliaBrot** is an extension to Mandelbrot, in which instead of initializing Z and C as 0 and `complex(i, j)` respectively we initialize Z as `complex(i, j)` and C as a function `f(i, j)` based on the julia set that we want to generate.
 
-For example, to generate a `` julia set we initialize C as `complex(-0.7, 0.35)` and this generates the following,
+For example, to generate a `frost fractal` julia set we initialize C as `complex(-0.7, 0.35)` and this generates the following,
 
 ```python
 julia = JuliaBrot(julia_name="frost_fractal")
