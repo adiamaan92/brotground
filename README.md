@@ -10,15 +10,16 @@
 
 </div>
 
-<p align="center">
-<img src="https://i.ibb.co/L8pHqrv/logo.png" alt="logo" border="0">
-</p>
-
 This python package is for people who want to learn and explore the wonderful world of brots. Provides an api that allows rapid experimenting and visualization. 
 
 ```
 pip install brotground
 ```
+
+<p align="center">
+<img src="https://i.ibb.co/L8pHqrv/logo.png" alt="logo" border="0">
+</p>
+
 
 ## Features
 1. _Light weight_, well documented, easy to understand code base
